@@ -1,8 +1,8 @@
-# FinDocGPT - AI-Powered Financial Document Analysis & Investment Strategy
+# FinDocMadeEz - AI-Powered Financial Document Analysis & Investment Strategy
 
 ## 🎯 Challenge Solution Overview
 
-**FinDocGPT** is a comprehensive AI solution that directly addresses the AkashX.ai challenge requirements by implementing a **3-stage AI pipeline** that transforms financial documents into actionable investment decisions.
+**FinDocMadeEz** is a comprehensive AI solution that directly addresses the AkashX.ai challenge requirements by implementing a **3-stage AI pipeline** that transforms financial documents into actionable investment decisions.
 
 ## 🏗️ 3-Stage Architecture Solution
 
@@ -161,7 +161,7 @@ src/
 
 ## 🎯 Challenge Impact
 
-**FinDocGPT** directly addresses the AkashX.ai vision by creating an AI system that:
+**FinDocMadeEz** directly addresses the AkashX.ai vision by creating an AI system that:
 - ✅ **Provides deep insights** into financial reports (Stage 1)
 - ✅ **Predicts market trends** with high accuracy (Stage 2)
 - ✅ **Formulates investment strategies** for real-time decision-making (Stage 3)

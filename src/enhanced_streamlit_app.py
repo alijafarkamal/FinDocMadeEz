@@ -21,7 +21,7 @@ from src.simple_rag_engine import SimpleRAGEngine
 from src.finance_theme import apply_finance_theme, create_finance_header, create_finance_metric_card
 
 st.set_page_config(
-    page_title="FinDocGPT - AI Financial Analysis & Investment Strategy",
+    page_title="FinDocMadeEz - AI Financial Analysis & Investment Strategy",
     page_icon="📊",
     layout="wide",
     initial_sidebar_state="expanded"

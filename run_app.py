@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-FinDocGPT - AI-Powered Financial Document Analysis & Investment Strategy
+FinDocMadeEz - AI-Powered Financial Document Analysis & Investment Strategy
 Run script for the Streamlit application
 """
 
@@ -30,7 +30,7 @@ def check_env_file():
         print("⚠️  .env file not found")
         print("Creating .env file with placeholder...")
         with open(".env", "w") as f:
-            f.write("# FinDocGPT Environment Variables\n")
+            f.write("# FinDocMadeEz Environment Variables\n")
             f.write("# Add your OpenRouter API key here\n")
             f.write("OPEN_ROUTER_API_KEY=your_openrouter_api_key_here\n")
         print("📝 Please edit .env file and add your OpenRouter API key")
@@ -66,8 +66,8 @@ def check_data_files():
     return True
 
 def main():
-    """Main function to run the FinDocGPT application"""
-    print("🚀 FinDocGPT - AI-Powered Financial Analysis")
+    """Main function to run the FinDocMadeEz application"""
+    print("🚀 FinDocMadeEz - AI-Powered Financial Analysis")
     print("=" * 50)
     
     # Check dependencies
@@ -84,7 +84,7 @@ def main():
         print("⚠️  Application will run with limited data")
         print("   Ensure FinanceBench data is available for full features")
     
-    print("\n🎯 Starting FinDocGPT application...")
+    print("\n🎯 Starting FinDocMadeEz application...")
     print("📊 Open your browser to http://localhost:8501")
     print("🛑 Press Ctrl+C to stop the application")
     print("=" * 50)
@@ -98,7 +98,7 @@ def main():
             "--browser.gatherUsageStats", "false"
         ])
     except KeyboardInterrupt:
-        print("\n👋 FinDocGPT application stopped")
+        print("\n👋 FinDocMadeEz application stopped")
     except Exception as e:
         print(f"❌ Error running application: {e}")
 

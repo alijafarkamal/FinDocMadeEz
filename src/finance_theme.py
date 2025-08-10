@@ -419,7 +419,7 @@ def create_finance_header():
                 background-clip: text;
                 text-shadow: 0 2px 4px rgba(0, 212, 170, 0.3);
             ">
-                FinDocGPT
+                FinDocMadeEz
             </h1>
         </div>
         <p style="

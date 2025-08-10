@@ -48,8 +48,8 @@ Provide a comprehensive financial analysis including:
         try:
             completion = self.client.chat.completions.create(
                 extra_headers={
-                    "HTTP-Referer": "https://findocgpt.com",
-                    "X-Title": "FinDocGPT",
+                    "HTTP-Referer": "https://findocmadeez.com",
+                    "X-Title": "FinDocMadeEz",
                 },
                 extra_body={},
                 model="deepseek/deepseek-chat-v3-0324:free",
@@ -107,8 +107,8 @@ Document text: {text[:6000]}"""
         try:
             completion = self.client.chat.completions.create(
                 extra_headers={
-                    "HTTP-Referer": "https://findocgpt.com",
-                    "X-Title": "FinDocGPT",
+                    "HTTP-Referer": "https://findocmadeez.com",
+                    "X-Title": "FinDocMadeEz",
                 },
                 extra_body={},
                 model="deepseek/deepseek-chat-v3-0324:free",
@@ -340,8 +340,8 @@ Provide a recommendation in JSON format:
         try:
             completion = self.client.chat.completions.create(
                 extra_headers={
-                    "HTTP-Referer": "https://findocgpt.com",
-                    "X-Title": "FinDocGPT",
+                    "HTTP-Referer": "https://findocmadeez.com",
+                    "X-Title": "FinDocMadeEz",
                 },
                 extra_body={},
                 model="deepseek/deepseek-chat-v3-0324:free",
@@ -377,8 +377,8 @@ Provide predictions in JSON format:
         try:
             completion = self.client.chat.completions.create(
                 extra_headers={
-                    "HTTP-Referer": "https://findocgpt.com",
-                    "X-Title": "FinDocGPT",
+                    "HTTP-Referer": "https://findocmadeez.com",
+                    "X-Title": "FinDocMadeEz",
                 },
                 extra_body={},
                 model="deepseek/deepseek-chat-v3-0324:4k",
